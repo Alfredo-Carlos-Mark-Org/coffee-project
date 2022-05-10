@@ -23,7 +23,7 @@ function updateCoffees(e) {
     var selectedRoast = roastSelection.value;
     var filteredCoffees = [];
     coffees.forEach(function(coffee) {
-        if (coffee.roast === selectedRoast) {
+        if (coffee.roast === selectedRoast && coffee.name.includes(search.value)) {
             filteredCoffees.push(coffee);
         }
     });
@@ -55,3 +55,6 @@ var roastSelection = document.querySelector('#roast-selection');
 tbody.innerHTML = renderCoffees(coffees);
 
 submitButton.addEventListener('click', updateCoffees);
+
+var search = document.querySelector("#search");
+search.addEventListener('keyup', updateCoffees)
