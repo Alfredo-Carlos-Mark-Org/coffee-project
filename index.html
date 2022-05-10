@@ -9,23 +9,12 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-<div>
-    <h1>Coffee!</h1>
+<div id="whole-page">
+    <h1 class="main-title">Coffee!</h1>
     <hr>
+
     <form>
-
-        <!--        <div class="dropdown">-->
-        <!--            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">-->
-
-        <!--            </button>-->
-        <!--            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">-->
-        <!--                <li><a class="dropdown-item" href="#">All</a></li>-->
-        <!--                <li><a class="dropdown-item" href="#">Light</a></li>-->
-        <!--                <li><a class="dropdown-item" href="#">Medium</a></li>-->
-        <!--                <li><a class="dropdown-item" href="#">Dark</a></li>-->
-        <!--            </ul>-->
-        <!--        </div>-->
-        <label for="roast-selection">Roast</label>
+        <label>Roast</label>
         <br>
         <select id="roast-selection">
             <option>All</option>
@@ -45,12 +34,13 @@
         </nav>
         <br>
         <input id="submit" type="submit"/>
+
         <hr>
-        <h1>Add a Coffee</h1>
+        <h1 class="add-coffee-title">Add a Coffee</h1>
         <form>
-            <label for="roast-selection">Roast</label>
+            <label>Roast</label>
             <br>
-            <select id="roast-selection">
+            <select id="new-roast-selection">
                 <option>All</option>
                 <option>Light</option>
                 <option>Medium</option>
@@ -67,24 +57,18 @@
                 </div>
             </nav>
             <br>
-            <input id="submit" type="submit"/>
+            <input id="new-coffee-submit" type="submit"/>
 
 
         </form>
     </form>
+
+
 </div>
-
-
-<table>
-    <thead>
-    <tr>
-        <th>ID</th>
-        <th>NAME</th>
-        <th>ROAST</th>
-    </tr>
-    </thead>
-    <tbody id="coffees"></tbody>
-</table>
+<div id="coffees">
+    <span>NAME</span>
+    <span>ROAST</span>
+</div>
 
 <script src="main.js "></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

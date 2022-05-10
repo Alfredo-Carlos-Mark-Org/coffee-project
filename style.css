@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+
+}
+
 table {
     border-collapse: collapse;
     margin: 15px 0;
@@ -12,7 +17,7 @@ hr {
     border: 1px solid #f6f5f5;
 }
 
-#roast-selection {
+#roast-selection, #new-roast-selection {
     width: 100%;
     background-color: white;
     color: black;
@@ -21,7 +26,7 @@ hr {
     border: 1px solid #ecebeb;
 }
 
-#roast-selection:visited {
+#roast-selection:visited, #new-roast-selection:visited {
     width: 100%;
     background-color: lightskyblue;
     color: black;
@@ -29,7 +34,8 @@ hr {
     border-radius: 5px;
     border: 1px solid lightskyblue;
 
-#submit {
+}
+#submit, #new-coffee-submit {
     width: 100%;
     background-color: steelblue;
     border-radius: 5px;
@@ -37,7 +43,7 @@ hr {
     color: white;
 }
 
-#submit:hover {
+#submit:hover, #new-coffee-submit:hover {
     width: 100%;
     background-color: lightskyblue;
     border-radius: 5px;
@@ -45,3 +51,28 @@ hr {
     color: white;
 }
 
+.main-title {
+    text-align: center;
+}
+
+.add-coffee-title {
+    text-align: center;
+}
+#whole-page{
+    width: 50%;
+    padding-right: 100px;
+    margin-right: 10px;
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+
+}
+#coffees{
+    width: 50%;
+    position: absolute;
+    margin: -500px 600px;
+}
+
+body {
+
+}
