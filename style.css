@@ -7,3 +7,41 @@ td, th {
     border: 1px solid black;
     padding: 5px 10px;
 }
+
+hr {
+    border: 1px solid #f6f5f5;
+}
+
+#roast-selection {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #ecebeb;
+}
+
+#roast-selection:visited {
+    width: 100%;
+    background-color: lightskyblue;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid lightskyblue;
+
+#submit {
+    width: 100%;
+    background-color: steelblue;
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    color: white;
+}
+
+#submit:hover {
+    width: 100%;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: 1px solid lightskyblue;
+    color: white;
+}
+
