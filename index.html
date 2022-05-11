@@ -10,66 +10,70 @@
 </head>
 <body>
 <div id="container">
-<div id="whole-page">
-    <h1 class="main-title">Coffee!</h1>
-    <hr>
-
-    <form>
-        <label>Roast</label>
-        <br>
-        <select id="roast-selection">
-            <option>All</option>
-            <option>Light</option>
-            <option>Medium</option>
-            <option>Dark</option>
-        </select>
-        <label><p>Coffee Name</p></label>
-        <br>
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-                <form class="d-flex">
-                    <input id="search" class="form-control me-2" type="search" placeholder="" aria-label="">
-                    <!--                    <button class="btn btn-outline-success" type="submit">Search</button>-->
-                </form>
-            </div>
-        </nav>
-        <br>
-        <input id="submit" type="submit"/>
-
+    <div id="whole-page">
+        <h1 class="main-title">Coffee!</h1>
         <hr>
-        <h1 class="add-coffee-title">Add a Coffee</h1>
+
         <form>
             <label>Roast</label>
             <br>
-            <select id="new-roast-selection">
+            <select id="roast-selection">
                 <option>All</option>
                 <option>Light</option>
                 <option>Medium</option>
                 <option>Dark</option>
             </select>
-            <label><p>Name</p></label>
+            <label><p>Coffee Name</p></label>
             <br>
             <nav class="navbar navbar-light bg-light">
                 <div class="container-fluid">
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="" aria-label="">
+                        <input id="search" class="form-control me-2" type="search" placeholder="" aria-label="">
                         <!--                    <button class="btn btn-outline-success" type="submit">Search</button>-->
                     </form>
                 </div>
             </nav>
             <br>
-            <input id="new-coffee-submit" type="submit"/>
+            <input id="submit" type="submit"/>
+
+            <hr>
+            <h1 class="add-coffee-title">Add a Coffee</h1>
+            <form>
+                <label>Roast</label>
+                <br>
+                <select id="new-roast-selection">
+                    <option>All</option>
+                    <option>Light</option>
+                    <option>Medium</option>
+                    <option>Dark</option>
+                </select>
+                <label><p>Name</p></label>
+                <br>
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="" aria-label="">
+                            <!--                    <button class="btn btn-outline-success" type="submit">Search</button>-->
+                        </form>
+                    </div>
+                </nav>
+                <br>
+                <input id="new-coffee-submit" type="submit"/>
 
 
+            </form>
         </form>
-    </form>
 
 
-</div>
-<div id="coffees">
-    <p class="coffee-name">NAME</p>
-    <p class="coffee-roast">ROAST</p>
-</div>
+    </div>
+    <div id="coffees">
+        <div class="coffee-name">
+            <p>NAME</p>
+        </div>
+        <div class="coffee-roast">
+            <p>ROAST</p>
+        </div>
+    </div>
 </div>
 <script src="main.js "></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -72,8 +72,6 @@ hr {
     /*position: absolute;*/
     /*margin: -500px 600px;*/
 
-
-
 }
 
 #container {
@@ -81,12 +79,12 @@ hr {
 
 }
 
-.coffee-name {
-    font-size: 18px;
+.coffee .name {
+    font-size: 20px;
     font-weight: bold;
 }
 
- .coffee-roast {
-    font-size: 6px;
-    color: rgba(248,249,250,0.7)
+ .coffee .roast {
+    font-size: 15px;
+    color: dimgrey;
 }
