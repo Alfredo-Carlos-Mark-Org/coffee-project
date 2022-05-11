@@ -1,6 +1,18 @@
 * {
     box-sizing: border-box;
+    margin-left: 5px;
 
+}
+
+body {
+
+    background-image: url(img/coffee-beans-dark-background.png);
+
+}
+
+#search, #new-search{
+    background-color: #341c0d;
+    color: tomato;
 }
 
 table {
@@ -19,7 +31,7 @@ hr {
 
 #roast-selection, #new-roast-selection {
     width: 100%;
-    background-color: white;
+    background-color: tan;
     color: black;
     text-align: left;
     border-radius: 5px;
@@ -28,35 +40,38 @@ hr {
 
 #roast-selection:visited, #new-roast-selection:visited {
     width: 100%;
-    background-color: lightskyblue;
+    background-color: #79341f;
     color: black;
     text-align: left;
     border-radius: 5px;
-    border: 1px solid lightskyblue;
+    border: 1px solid #341c0d;
 
 }
 #submit, #new-coffee-submit {
     width: 100%;
-    background-color: steelblue;
+    background-color: #79341f;
     border-radius: 5px;
-    border: 1px solid steelblue;
+    border: 1px solid #964d32;
     color: white;
+    background-color: #341c0d;
 }
 
 #submit:hover, #new-coffee-submit:hover {
     width: 100%;
-    background-color: lightskyblue;
+    background-color: tomato;
     border-radius: 5px;
-    border: 1px solid lightskyblue;
+    border: 1px solid tomato;
     color: white;
 }
 
 .main-title {
     text-align: center;
+    color: tomato;
 }
 
 .add-coffee-title {
     text-align: center;
+    color: tomato;
 }
 #whole-page{
     width: 50%;
@@ -82,9 +97,10 @@ hr {
 .coffee .name {
     font-size: 20px;
     font-weight: bold;
+    color: tomato;
 }
 
  .coffee .roast {
     font-size: 15px;
-    color: dimgrey;
+    color: #964d32;
 }
