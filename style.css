@@ -60,8 +60,8 @@ hr {
 }
 #whole-page{
     width: 50%;
-    padding-right: 100px;
-    margin-right: 10px;
+    /*padding-right: 100px;*/
+    /*margin-right: 10px;*/
 
     /*display: flex;*/
     /*flex-direction: column;*/
@@ -69,10 +69,24 @@ hr {
 }
 #coffees{
     width: 50%;
-    position: absolute;
-    margin: -500px 600px;
+    /*position: absolute;*/
+    /*margin: -500px 600px;*/
+
+
+
 }
 
-body {
+#container {
+    display: flex;
 
+}
+
+.coffee-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ .coffee-roast {
+    font-size: 6px;
+    color: rgba(248,249,250,0.7)
 }
