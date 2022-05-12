@@ -1,12 +1,16 @@
 * {
     box-sizing: border-box;
-    margin-left: 5px;
+    font-family: Copperplate;
+    width: auto;
+    padding: 7px
 
 }
 
 body {
 
     background-image: url(img/coffee-beans-dark-background.png);
+    background-size: auto;
+    background-repeat: repeat;
 
 }
 
@@ -26,7 +30,7 @@ td, th {
 }
 
 hr {
-    border: 1px solid #f6f5f5;
+    border: 1px solid #030201;
 }
 
 #roast-selection, #new-roast-selection {
@@ -102,5 +106,5 @@ hr {
 
  .coffee .roast {
     font-size: 15px;
-    color: #964d32;
+    color: #f1bcab;
 }
